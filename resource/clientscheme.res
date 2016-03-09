@@ -2831,6 +2831,77 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		sfshaded16
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Shaded"
+				"tall"		"16"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
+		sfshaded18
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Shaded"
+				"tall"		"18"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
+		sfshaded20
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Shaded"
+				"tall"		"20"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
+		sfshaded22
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Shaded"
+				"tall"		"22"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
+		sfshaded24
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Shaded"
+				"tall"		"24"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
+		sfshaded28
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Shaded"
+				"tall"		"28"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
+		sfshaded32
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Shaded"
+				"tall"		"32"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
+		
 
 	}
 
@@ -5168,5 +5239,10 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
+		"8"
+		{
+		"font" "resource/fonts/SF Slapstick Comic Shaded.ttf"
+		"name" "SF Slapstick Comic Shaded"
+		}
 	}
 }
