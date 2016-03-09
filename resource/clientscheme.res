@@ -2831,6 +2831,16 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		sfshaded14
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Shaded"
+				"tall"		"14"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
 		sfshaded16
 		{
 			"1"
@@ -2898,6 +2908,179 @@ Scheme
 				"name"		"SF Slapstick Comic Shaded"
 				"tall"		"32"
 				"weight"	"300"
+				"antialias" "1"
+			}
+		}
+		sfshaded40
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Shaded"
+				"tall"		"40"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
+		sfshaded44
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Shaded"
+				"tall"		"44"
+				"weight"	"300"
+				"antialias" "1"
+			}
+		}
+		sfbold16
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		sfbold18
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Bold"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		sfbold20
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Bold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		sfbold22
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Bold"
+				"tall"		"22"
+				"antialias" "1"
+			}
+		}
+		sfbold24
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		sfbold26
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Bold"
+				"tall"		"26"
+				"antialias" "1"
+			}
+		}
+		sfbold28
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Bold"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		sfbold32
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		sfbold44
+		{
+			"1"
+			{
+				"name"		"SF Slapstick Comic Bold"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+		codel20
+		{
+			"1"
+			{
+				"name"		"Code-Light"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		codel30
+		{
+			"1"
+			{
+				"name"		"Code-Light"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		codel40
+		{
+			"1"
+			{
+				"name"		"Code-Light"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		codel44
+		{
+			"1"
+			{
+				"name"		"Code-Light"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+		codeb20
+		{
+			"1"
+			{
+				"name"		"Code-Bold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		codeb30
+		{
+			"1"
+			{
+				"name"		"Code-Bold"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		codeb40
+		{
+			"1"
+			{
+				"name"		"Code-Bold"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		codeb44
+		{
+			"1"
+			{
+				"name"		"Code-Bold"
+				"tall"		"44"
 				"antialias" "1"
 			}
 		}
@@ -5243,6 +5426,21 @@ Scheme
 		{
 		"font" "resource/fonts/SF Slapstick Comic Shaded.ttf"
 		"name" "SF Slapstick Comic Shaded"
+		}
+		"9"
+		{
+		"font" "resource/fonts/SF Slapstick Comic Bold.ttf"
+		"name" "SF Slapstick Comic Bold"
+		}
+		"10"
+		{
+		"font" "resource/fonts/CODE Bold.otf"
+		"name" "Code-Bold"
+		}
+		"11"
+		{
+		"font" "resource/fonts/CODE Light.otf"
+		"name" "Code-Light"
 		}
 	}
 }
