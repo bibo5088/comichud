@@ -3012,6 +3012,42 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		codel12
+		{
+			"1"
+			{
+				"name"		"Code-Light"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		codel14
+		{
+			"1"
+			{
+				"name"		"Code-Light"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		codel16
+		{
+			"1"
+			{
+				"name"		"Code-Light"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		codel18
+		{
+			"1"
+			{
+				"name"		"Code-Light"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
 		codel20
 		{
 			"1"
