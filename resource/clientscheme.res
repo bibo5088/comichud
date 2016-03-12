@@ -18,6 +18,99 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+	// ToonHUD colors
+		
+		"G_Highlight"			"156 53 51 255" // Highlight color
+		"G_White"				"255 255 255 255"
+		"G_Black"				"0 0 0 255"
+		"G_Red"					"230 0 0 255"
+		"G_Shadow"				"0 0 0 220" // Shadow color
+		"G_LightShadow"			"0 0 0 110"
+		"G_Heal"				"127 224 74 255" // Heal color
+		"G_Hit"					"235 220 50 255" // Hit color
+		"G_Brown"				"49 44 41 255"
+		"G_Yellow"				"235 220 50 255"
+		"G_WhiteShadow"			"255 255 255 50"
+		"G_WhiteShadowDim"		"255 255 255 40"
+		"G_WhiteShadowCharge"	"255 255 255 100"
+		"G_Grey"				"54 54 54 255" // Move building bg
+		"G_LightGrey"			"180 180 180 255" // Metal color in build/destroy menu
+		"G_HealthBarBg"			"0 0 0 220" // Target health bg
+		"G_CurrencyBad"			"255 60 60 255" // Red currency in MvM
+		"G_TransparentMenuBG"	"0 0 0 200" // Transparent menu color
+		"G_PanelBg"				"40 40 40 200" // Panel color
+		"G_OpaquePanelBg"		"40 40 40 255" // Opaque Panel color
+		"G_Warning"				"255 0 0 255" // Warning color
+		"G_HealthValue"			"255 255 255 255" // Health value color
+		"G_Overheal"			"255 255 255 255" // Overhealed health value color
+		"G_LowHealthValue"		"255 255 255 255" // Low health value color
+		"G_AmmoClipValue"		"255 255 255 255" // Ammo in clip value color
+		"G_AmmoReserveValue"	"255 255 255 255" // Ammo in reserve value color
+		"G_LowAmmo"				"255 0 0 255" // Low ammo color
+		"G_MetalValue"			"255 255 255 255" // Metal color
+		"G_MetalIcon"			"255 255 255 255" // Metal icon color
+		"G_HeadsValue"			"235 220 50 255" // Heads value color
+		"G_HeadsLabel"			"255 255 255 255" // Heads value icon color
+		"G_KillstreakValue"		"255 255 255 255" // Killstreak value color
+		"G_KillstreakIcon"		"255 255 255 255" // Killstreak icon color
+		"G_StickyColor"					"255 255 255 255" // Stickybomb color
+		"G_StickyIconColor"				"255 255 255 255" // Stickybomb icon color
+		"G_CustomTargetID" 				"0 0 0 100" // Custom target id bg color
+		"G_TargetHealthValue" 			"255 255 255 255" // Target ID health value color
+		"G_TargetHealthValueShadow" 	"0 0 0 220" // Target ID health value shadow color
+		"G_Killfeed_Base"			"0 0 0 120" // Killfeed Base color
+		"G_Killfeed_Local"			"235 235 235 240" // Killfeed Local color
+		"G_CenteredMetalBg"			"50 50 50 120" // Centered metal background color
+		"G_CenteredUberchargeBg"	 "0 0 0 100" // Centered ubercharge meter background color
+		"G_BrownBg"					"46 43 42 220"
+		"G_DestroyBg"				"120 0 0 150"
+		"G_ScoreboardBlue"			"55 73 85 100"
+		"G_ScoreboardRed"			"106 34 34 100"
+		"G_TeamBlue"				"91 122 140 255"
+		"G_TeamRed"					"189 58 58 255"
+		"G_TeamButtonBlue"			"91 122 140 100"
+		"G_TeamButtonRed"			"189 58 58 100"
+		"G_TeamButtonBlueArmed"		"111 142 160 255"
+		"G_TeamButtonRedArmed"		"209 78 78 255"		
+		"G_Footer"					"28 23 19 255" // Menu footer color
+		"G_DimmFooter"				"28 23 19 200" // Dimm Menu footer color
+		"G_FooterText"				"203 186 177 255" // Footer text color
+		"G_DimmFooterText"			"196 178 168 120" // Dimm Footer text color
+		"G_OuterBorder"				"0 0 0 255" // Outer border color
+		"G_InnerBorder"				"0 0 0 30" // Inner border color
+		"G_KillfeedBlue"			"83 155 242 255" // Killfeed blue text
+		"G_KillfeedRed"				"243 82 82 255" // Killfeed red text
+		"G_KillfeedIcon"			"255 255 255 255" // Killfeed icon color
+		"G_CustomHealthValue"		"120 120 120 255"
+		"G_MainMenuOverlay"			"0 0 0 0" // Main Menu overlay color
+		"G_MainMenuButton"			"20 20 20 180" // Main Menu button color
+		"G_MainMenuButtonHover"		"20 20 20 220" // Main Menu hovered button color
+		"G_MainMenuButtonFg"		"223 223 223 255" // Main Menu button text color
+		"G_MainMenuButtonHoverFg"	"255 255 255 255" // Main Menu hovered button text color
+		"G_BackpackItemBg"			"55 50 45 255" // Backpack item bg color
+		"G_LoadoutItemBg"			"52 47 42 255" // Loadout item bg color
+		"G_MenuBg"					"40 34 30 255" // Menu bg color
+		"G_MenuText"				"220 206 199 255" // Menu text color
+		"G_InputText"				"0 0 0 240" // Input text color
+		"G_DimmInputText"			"0 0 0 100" // Dimm Input text color
+		"G_DimmMenuText"			"220 206 199 120" // Dimm Menu text color
+		"G_ItemDescriptionPanelBg"	"24 22 20 255" // Item description panel bg
+		"G_ButtonBg"				"96 83 73 255" // Button bg color
+		"G_ButtonText"				"214 206 200 255" // Button text color
+		"G_ButtonHoverBg"			"156 53 51 255" // Button hover bg color
+		"G_ButtonHoverText"			"255 255 255 255" // Button hover text color
+		"G_ButtonSelectedBg"		"156 53 51 255" // Button selected bg color
+		"G_ButtonSelectedText"		"255 255 255 255" // Button selected text color
+		"G_GhostWhite"				"255 255 255 210"
+		"G_ItemMeterBg"				"0 0 0 100" // Item meter bg
+		"G_ItemMeterBorder"			"0 0 0 255" // Item meter border color
+		"G_MenuShader"				"0 0 0 100" // Menu shader color
+		"G_ItemEffectMeterLineColor"	"120 120 120 130"
+		"G_MainMenuButtonBorderColor" "0 0 0 100" // Main menu button border color
+		"G_MainMenuButtonBorderHoverColor" "0 0 0 100" // Main menu hovered button border color
+		"G_MvmLobbyPanelBg"			"40 40 40 255"
+		"G_MvmLobbyPanelText"		"220 220 220 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -456,6 +549,330 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		"G_MenuArrowBig"
+		{
+			"1"
+			{
+				"name"			"ToonHUD Icons"
+				"tall"			"26"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_MenuArrowSmall"
+		{
+			"1"
+			{
+				"name"			"ToonHUD Icons"
+				"tall"			"15"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		
+		"G_BallSmall"
+		{
+			"1"
+			{
+				"name"			"ToonHUD Icons"
+				"tall"			"15"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_Slash"
+		{
+			"1"
+			{
+				"name"			"ToonHUD Icons"
+				"tall"			"23" [$WINDOWS]
+				"tall"			"37" [!$WINDOWS]
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_SlashSmall"
+		{
+			"1"
+			{
+				"name"			"ToonHUD Icons"
+				"tall"			"19" [$WINDOWS]
+				"tall"			"30" [!$WINDOWS]
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_SearchIcon"
+		{
+			"1"
+			{
+				"name"			"ToonHUD Icons"
+				"tall"			"20" [$WINDOWS]
+				"tall"			"25" [!$WINDOWS]
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_HomeIcon"
+		{
+			"1"
+			{
+				"name"			"ToonHUD Icons"
+				"tall"			"8" [$WINDOWS]
+				"tall"			"10" [!$WINDOWS]
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_HeadsIcon"
+		{
+			"1"
+			{
+				"name"			"ToonHUD Icons"
+				"tall"			"12" [$WINDOWS]
+				"tall"			"18" [!$WINDOWS]
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_Stickys"
+		{
+			"1"
+			{
+				"name"			"ToonHUD Icons"
+				"tall"			"60"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"G_FontHuge"
+		{
+			"1"
+			{
+				"name"			"Komika Axis" [$WINDOWS] // Primary font
+				"name"			"TF2 Build" [!$WINDOWS]
+				"tall"			"60" // Size Huge Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"G_FontBig"
+		{
+			"1"
+			{
+				"name"			"Komika Axis" [$WINDOWS] // Primary font
+				"name"			"TF2 Build" [!$WINDOWS]
+				"tall"			"40" // Size Big Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"G_FontMedium"
+		{
+			"1"
+			{
+				"name"			"Komika Axis" [$WINDOWS] // Primary font
+				"name"			"TF2 Build" [!$WINDOWS]
+				"tall"			"25" // Size Medium Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"G_FontSmall"
+		{
+			"1"
+			{
+				"name"			"Komika Axis" [$WINDOWS] // Primary font
+				"name"			"TF2 Build" [!$WINDOWS]
+				"tall"			"15" // Size Small Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_FontTiny"
+		{
+			"1"
+			{
+				"name"			"Komika Axis" [$WINDOWS] // Primary font
+				"name"			"TF2 Build" [!$WINDOWS]
+				"tall"			"14" // Size Tiny Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		
+		"G_FontHuge_2"
+		{
+			"1"
+			{
+				"name"			"Dimbo" [$WINDOWS] // Secondary font
+				"name"			"TF2 Secondary" [!$WINDOWS]
+				"tall"			"25" // Size Huge Secondary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_FontBig_2"
+		{
+			"1"
+			{
+				"name"			"Dimbo" [$WINDOWS] // Secondary font
+				"name"			"TF2 Secondary" [!$WINDOWS]
+				"tall"			"19" // Size Big Secondary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_FontMedium_2"
+		{
+			"1"
+			{
+				"name"			"Dimbo" [$WINDOWS] // Secondary font
+				"name"			"TF2 Secondary" [!$WINDOWS]
+				"tall"			"16" // Size Medium Secondary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_FontSmall_2"
+		{
+			"1"
+			{
+				"name"			"Dimbo" [$WINDOWS] // Secondary font
+				"name"			"TF2 Secondary" [!$WINDOWS]
+				"tall"			"12" // Size Small Secondary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_FontTiny_2"
+		{
+			"1"
+			{
+				"name"			"Dimbo" [$WINDOWS] // Secondary font
+				"name"			"TF2 Secondary" [!$WINDOWS]
+				"tall"			"10" // Size Tiny Secondary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"0"
+			}
+		}
+		
+		"G_FontDamage"
+		{
+			"1"
+			{
+				"name"			"Komika Axis" [$WINDOWS] // Damage font | Primary font
+				"name"			"TF2 Build" [!$WINDOWS]
+				"tall"			"20" // Damage size
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1" // Damage outline
+			}
+		}
+		
+		"G_FontCritDamage"
+		{
+			"1"
+			{
+				"name"			"Komika Axis" [$WINDOWS] // Crit damage font | Primary font
+				"name"			"TF2 Build" [!$WINDOWS]
+				"tall"			"22" // Crit damage size
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1" // Crit damage outline
+			}
+		}
+		
+		"G_FontTargetIDHealth"
+		{
+			"1"
+			{
+				"name"			"Komika Axis" // Target ID health font | Primary font
+				"tall"			"14" // Target ID health text size
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_FontNumberButton"
+		{
+			"1"
+			{
+				"name"			"Verdana"
+				"tall"			"9"
+				"weight"		"500"
+				"antialias" 	"1"
+			}
+		}
+		
+		"G_FontMediumBlur"
+		{
+			"1"
+			{
+				"name"			"Komika Axis" [$WINDOWS] // Primary font
+				"name"			"TF2 Build" [!$WINDOWS]
+				"tall"			"25" // Size Medium Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"blur"			"3"
+			}
+		}
+		
+		"G_FontNone"
+		{
+			"1"
+			{
+				"name"			"Verdana"
+				"tall"			"1"
+				"weight"		"100"
+				"additive"		"0"
+				"antialias" 	"0"
+				"yres"			"0 2000"
+			}
+		}
+		
 		"Default"
 		{
 			"1"
@@ -5458,25 +5875,39 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
-		"8"
+		"8" "resource/fonts/ToonHUD KOMIKAX.ttf"
+		"9" "resource/fonts/ToonHUD Dimbo.ttf"
+		"10" "resource/fonts/Prototype.ttf"
+		"11" "resource/fonts/Prototype Capital.ttf"
+		"12" "resource/fonts/ToonHUD Hemi Head.ttf"
+		"13" "resource/fonts/ToonHUD Crosshairs.ttf"
+		"14" "resource/fonts/ToonHUD Hitmarkers.ttf"
+		"15" "resource/fonts/ToonHUD Icons.ttf"
+		"16" "resource/fonts/Karla.ttf"
+		"17" "resource/fonts/Lato.ttf"
+		"18" "resource/fonts/Gobold.ttf"
+		"19" "resource/fonts/ToonHUD Montserrat.ttf"
+		"20" "resource/fonts/Montserrat.ttf"
+		"21"
 		{
 		"font" "resource/fonts/SF Slapstick Comic Shaded.ttf"
 		"name" "SF Slapstick Comic Shaded"
 		}
-		"9"
+		"22"
 		{
 		"font" "resource/fonts/SF Slapstick Comic Bold.ttf"
 		"name" "SF Slapstick Comic Bold"
 		}
-		"10"
+		"23"
 		{
 		"font" "resource/fonts/CODE Bold.otf"
 		"name" "Code-Bold"
 		}
-		"11"
+		"24"
 		{
 		"font" "resource/fonts/CODE Light.otf"
 		"name" "Code-Light"
 		}
+		
 	}
 }
