@@ -3537,6 +3537,105 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		CLBI12
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		CLBI14
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		CLBI16
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		CLBI18
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		CLBI20
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		CLBI22
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"22"
+				"antialias" "1"
+			}
+		}
+		CLBI24
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		CLBI28
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		CLBI30
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		CLBI34
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"34"
+				"antialias" "1"
+			}
+		}
+		CLBI38
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"38"
+				"antialias" "1"
+			}
+		}
 		
 
 	}
@@ -5907,6 +6006,11 @@ Scheme
 		{
 		"font" "resource/fonts/CODE Light.otf"
 		"name" "Code-Light"
+		}
+		"25"
+		{
+		"font" "resource/fonts/Champagne & Limousines Bold.tff"
+		"name" "Champagne & Limousines Bold"
 		}
 		
 	}

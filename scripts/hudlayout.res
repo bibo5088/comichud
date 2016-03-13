@@ -16,8 +16,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c175"	[$WIN32]
-		"ypos"	"c125"	[$WIN32]
+		"xpos"	"c100"	[$WIN32]
+		"ypos"	"c105"	[$WIN32]
 		"wide"	"120"
 		"tall"	"120"
 	}
@@ -33,22 +33,22 @@
 		"tall"	"480"
 	}	
 	
-	HudKothTimeStatus
+		HudKothTimeStatus
 	{
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"c-65"
 		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
+		"wide"	"130"
+		"tall"	"60"
 		
-		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
+		"blue_active_xpos"			"0"
+		"blue_active_xpos_minmode"	"0"
 	
-		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
-	}	
+		"red_active_xpos"			"70"
+		"red_active_xpos_minmode"	"70"
+	}
 
 	HudItemEffectMeter
 	{
