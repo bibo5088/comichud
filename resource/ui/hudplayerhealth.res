@@ -90,7 +90,31 @@
 		"textAlignment"	"center"	
 		"font"			"codel44"
 		"fgcolor"		"Black"
-	}	
+	}
+	"HPTeamIndicator"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"HPBackgroundPanel1"
+		"xpos"			"76"
+		"ypos"			"87"
+		"zpos"			"10"
+		"wide"			"75"
+		"tall"	 		"5"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible" "1" 
+		"enabled" "1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
