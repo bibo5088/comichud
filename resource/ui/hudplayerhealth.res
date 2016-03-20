@@ -94,7 +94,7 @@
 	"HPTeamIndicator"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HPBackgroundPanel1"
+		"fieldName"		"HPTeamIndicator"
 		"xpos"			"76"
 		"ypos"			"87"
 		"zpos"			"10"

@@ -2,24 +2,25 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"16"
+		"xpos_minmode"	"35"
+		"xpos_hidef"	"108"
+		"xpos_lodef"	"108"
+		"ypos"			"9"
 		"zpos"			"2"
-		"wide"			"60"
-		"tall"			"21"
-		"tall_minmode"	"15"
+		"wide"			"78"
+		"wide_minmode"	"38"
+		"wide_lodef"	"90"
+		"tall"			"33"
+		"tall_minmode"	"23"
+		"tall_lodef"	"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"	"1"	
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"scaleImage"		"1"	
 	}
-	
 	"TimePanelProgressBar"
 	{
 		"ControlName"			"CTFProgressBar"
@@ -35,9 +36,9 @@
 		"wide_lodef"		"25"
 		"tall"				"20"
 		"tall_lodef"		"25"	
-		"visible"			"0"
+		"visible"			"1"
 		"visible_minmode"	"0"
-		"enabled"			"0"
+		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
 		"color_active"			"TimerProgress.Active"
@@ -49,10 +50,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"9999"
+		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"9999"
+		"ypos"			"34"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -78,9 +79,9 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"9999"	[$WIN32]
+		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"9999"
+		"ypos"			"31"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
@@ -96,10 +97,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"-10"
+		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"15"
+		"ypos"			"33"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -110,8 +111,6 @@
 		"tall"			"19"
 		"tall_hidef"	"19"
 		"tall_lodef"	"22"
-		"font"			"LCBI14"
-		"fgcolor"		"White"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
@@ -119,6 +118,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
+		"font"			"ClockSubText"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 	}			
@@ -126,9 +126,9 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"9999"	[$WIN32]
+		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"9999"
+		"ypos"			"31"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
@@ -144,10 +144,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"-10"
+		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"15"
+		"ypos"			"33"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -158,8 +158,6 @@
 		"tall"			"19"
 		"tall_hidef"	"19"
 		"tall_lodef"	"22"
-		"font"			"LCBI14"
-		"fgcolor"		"White"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
@@ -167,6 +165,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
+		"font"			"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 	}			
@@ -174,9 +173,9 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"9999"	[$WIN32]
+		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"9999"
+		"ypos"			"31"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
@@ -192,10 +191,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"-10"
+		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"15"
+		"ypos"			"33"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -206,15 +205,14 @@
 		"tall"			"19"
 		"tall_hidef"	"19"
 		"tall_lodef"	"22"
-		"font"			"LCBI14"
-		"fgcolor"		"White"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
-		"textAlignment"	"center"
+		"textAlignment"		"center"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"		"0"
 		"wrap"			"0"
+		"font"			"ClockSubText"
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
@@ -223,8 +221,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"9999"	[$WIN32]
-		"xpos"			"9999"	[$X360]
+		"xpos"			"16"	[$WIN32]
+		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
