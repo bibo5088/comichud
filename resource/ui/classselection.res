@@ -78,21 +78,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_random_inactive"
-			"scaleImage"	"1"
-		}				
+					
 	}
 		
 	"Offense"
@@ -209,20 +195,7 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-			"wide"				"100"
-			"tall"				"15"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_scout_inactive"
-			"scaleImage"	"1"
-		}				
+			
 	}
 	"soldier"
 	{
@@ -272,21 +245,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-		"wide"				"75"
-		"tall"				"15"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_soldier_inactive"
-			"scaleImage"	"1"
-		}				
+				
 	}
 	"pyro"
 	{
@@ -328,21 +287,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-		"wide"				"75"
-		"tall"				"15"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_pyro_inactive"
-			"scaleImage"	"1"
-		}				
+				
 	}
 	
 	"Defense"
@@ -418,21 +363,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-		"wide"				"75"
-		"tall"				"15"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_demo_inactive"
-			"scaleImage"	"1"
-		}				
+					
 	}	
 	"heavyweapons"
 	{
@@ -482,20 +413,7 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-		"wide"				"75"
-		"tall"				"15"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_heavy_inactive"
-			"scaleImage"	"1"
-		}				
+			
 	}
 	"engineer"
 	{
@@ -543,21 +461,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-		"wide"				"75"
-		"tall"				"15"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_engineer_inactive"
-			"scaleImage"	"1"
-		}				
+					
 	}
 	
 	"Support"
@@ -635,20 +539,7 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-		"wide"				"75"
-		"tall"				"15"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_medic_inactive"
-			"scaleImage"	"1"
-		}				
+			
 	}
 	"sniper"
 	{
@@ -699,20 +590,7 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-		"wide"				"75"
-		"tall"				"15"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_sniper_inactive"
-			"scaleImage"	"1"
-		}				
+			
 	}
 	"spy"
 	{
@@ -760,21 +638,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_spy_inactive"
-			"scaleImage"	"1"
-		}				
+					
 	}	
 
 	"Cancelbutton"
