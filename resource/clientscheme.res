@@ -3636,6 +3636,114 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		walk12
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		walk14
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		walk16
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		walk18
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		walk20
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		walk24
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		walk28
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		walk30
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		walk34
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"34"
+				"antialias" "1"
+			}
+		}
+		walk38
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"38"
+				"antialias" "1"
+			}
+		}
+		walk40
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		walk44
+		{
+			"1"
+			{
+				"name"		"Walkway SemiBold"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
 		
 
 	}
@@ -6011,6 +6119,11 @@ Scheme
 		{
 		"font" "resource/fonts/Champagne & Limousines Bold.tff"
 		"name" "Champagne & Limousines Bold"
+		}
+		"26"
+		{
+		"font" "resource/fonts/Walkway SemiBold.ttf"
+		"name" "Walkway SemiBold"
 		}
 		
 	}
