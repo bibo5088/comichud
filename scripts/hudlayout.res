@@ -1,5 +1,44 @@
 "Resource/HudLayout.res"
 {
+	xHairSpread
+	{
+	"ControlName" "CExLabel"
+	"fieldName" "xHairSpread"
+	"visible" "1"
+	"enabled" "1"
+	"zpos" "2"
+
+	"xpos" "c-100"
+	"ypos" "c-100"
+	"wide" "202"
+	"tall" "198"
+
+	"font" "cross"
+	"labelText" "\"
+	"textAlignment" "center"
+
+	"fgcolor" "255 119 51 192"
+	}
+	"Hitmarker"
+	{
+	"ControlName"		"CTFImagePanel"
+	"fieldName"		"Hitmarker"
+	"xpos"			"c-4"
+	"ypos"			"c-7"
+	"zpos"			"3"
+	"wide"			"10"
+	"tall"	 		"10"
+	"autoResize"		"0"
+	"pinCorner"		"0"
+	"visible"		"1"
+	"enabled"		"1"
+	"image"			"../vgui/replay/thumbnails/hitmarker_blue"
+	"scaleImage"		"1"
+	"teambg_1"		"../vgui/replay/thumbnails/hitmarker_blue"
+	"teambg_2"		"../vgui/replay/thumbnails/hitmarker_red"
+	"teambg_3"		"../vgui/replay/thumbnails/hitmarker_blue"
+	"Alpha"			"0"
+	}
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -33,21 +72,21 @@
 		"tall"	"480"
 	}	
 	
-		HudKothTimeStatus
+	HudKothTimeStatus
 	{
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-65"
+		"xpos"	"c-100"
 		"ypos"	"0"
-		"wide"	"130"
-		"tall"	"60"
+		"wide"	"200"
+		"tall"	"160"
 		
-		"blue_active_xpos"			"0"
-		"blue_active_xpos_minmode"	"0"
+		"blue_active_xpos"			"16"
+		"blue_active_xpos_minmode"	"55"
 	
-		"red_active_xpos"			"70"
-		"red_active_xpos_minmode"	"70"
+		"red_active_xpos"			"106"
+		"red_active_xpos_minmode"	"105"
 	}
 
 	HudItemEffectMeter
@@ -198,12 +237,11 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"			"c-220"		[$WIN32]
+		"ypos"			"c50"	[$WIN32]
+		"zpos"			"2"
+		"wide"			"250"
+		"tall"			"120"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"

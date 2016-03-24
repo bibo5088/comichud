@@ -71,7 +71,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"codel44"
 		"fgcolor"		"White"
 	}

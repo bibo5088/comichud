@@ -3744,6 +3744,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		cross
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
 		
 
 	}
@@ -6124,6 +6133,11 @@ Scheme
 		{
 		"font" "resource/fonts/Walkway SemiBold.ttf"
 		"name" "Walkway SemiBold"
+		}
+		"27"
+		{
+		"font" "resource/fonts/crosshairs.tff"
+		"name" "Crosshairs Regular"
 		}
 		
 	}
