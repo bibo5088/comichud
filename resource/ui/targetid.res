@@ -13,13 +13,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"../vgui/replay/thumbnails/bg_blue_duo"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"teambg_1"		"../vgui/replay/thumbnails/bg_blue_duo"
+		"teambg_2"		"../vgui/replay/thumbnails/bg_red_duo"
+		"teambg_3"		"../vgui/replay/thumbnails/bg_blue_duo"
+		"Alpha"			"255"
 		
 		"src_corner_height"		"40"				// pixels inside the image
 		"src_corner_width"		"40"			

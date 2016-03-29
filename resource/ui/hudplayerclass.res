@@ -14,6 +14,47 @@
 		"visible"		"1"
 		"enabled"		"1"		
 	}
+	xHairSpread
+	{
+	"ControlName" "CExLabel"
+	"fieldName" "xHairSpread"
+	"visible" "1"
+	"enabled" "1"
+	"zpos" "2"
+
+	"xpos" "c-100"
+	"ypos" "c-96"
+	"wide" "202"
+	"tall" "198"
+
+	"font" "cross"
+	"labelText" "8"
+	"textAlignment" "center"
+
+	"fgcolor" "255 119 51 192"
+	"Alpha"		"255"
+	}
+
+	// "Hitmarker"
+	// {
+	// "ControlName"		"CTFImagePanel"
+	// "fieldName"		"Hitmarker"
+	// "xpos"			"c-4"
+	// "ypos"			"c-6"
+	// "zpos"			"3"
+	// "wide"			"10"
+	// "tall"	 		"10"
+	// "autoResize"		"0"
+	// "pinCorner"		"0"
+	// "visible"		"1"
+	// "enabled"		"1"
+	// "image"			"../vgui/replay/thumbnails/hitmarker_blue"
+	// "scaleImage"		"1"
+	// "teambg_1"		"../vgui/replay/thumbnails/hitmarker_blue"
+	// "teambg_2"		"../vgui/replay/thumbnails/hitmarker_red"
+	// "teambg_3"		"../vgui/replay/thumbnails/hitmarker_blue"
+	// "Alpha"			"0"
+	// }
 	"PlayerStatusClassImage"
 	{
 		"ControlName"	"CTFClassImage"

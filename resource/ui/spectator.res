@@ -293,10 +293,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
-		"xpos"			"15"
+		"xpos"			"9999"
 		"xpos_hidef"	"60"
 		"xpos_lodef"	"45"
-		"ypos"			"r67"
+		"ypos"			"9999"
 		"ypos_lodef"		"28"
 		"ypos_hidef"		"35"
 		"wide"			"145"
@@ -307,9 +307,9 @@
 		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"visible_minmode"		"0"
-		"enabled"		"0
+		"enabled"		"1"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]
 		"textAlignment"		"north-west"	[$X360]

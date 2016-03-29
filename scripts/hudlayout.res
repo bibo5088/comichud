@@ -1,43 +1,19 @@
 "Resource/HudLayout.res"
 {
-	xHairSpread
+	"TransparentViewmodelMask"
 	{
-	"ControlName" "CExLabel"
-	"fieldName" "xHairSpread"
-	"visible" "1"
-	"enabled" "1"
-	"zpos" "2"
-
-	"xpos" "c-100"
-	"ypos" "c-100"
-	"wide" "202"
-	"tall" "198"
-
-	"font" "cross"
-	"labelText" "\"
-	"textAlignment" "center"
-
-	"fgcolor" "255 119 51 192"
-	}
-	"Hitmarker"
-	{
-	"ControlName"		"CTFImagePanel"
-	"fieldName"		"Hitmarker"
-	"xpos"			"c-4"
-	"ypos"			"c-7"
-	"zpos"			"3"
-	"wide"			"10"
-	"tall"	 		"10"
-	"autoResize"		"0"
-	"pinCorner"		"0"
-	"visible"		"1"
-	"enabled"		"1"
-	"image"			"../vgui/replay/thumbnails/hitmarker_blue"
-	"scaleImage"		"1"
-	"teambg_1"		"../vgui/replay/thumbnails/hitmarker_blue"
-	"teambg_2"		"../vgui/replay/thumbnails/hitmarker_red"
-	"teambg_3"		"../vgui/replay/thumbnails/hitmarker_blue"
-	"Alpha"			"0"
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/REFRACTnormal_transparent"
+		"scaleImage"	"1"
 	}
 	HudPlayerStatus
 	{
@@ -1486,7 +1462,6 @@
 		"wide"	 		"f0"
 		"tall"	 		"f0"
 	}
-
 	HudSpectatorExtras
 	{
 		"fieldName" "HudSpectatorExtras"
@@ -1497,19 +1472,38 @@
 		"wide"	"f0"
 		"tall"	"f0"
 	}
-	"TransparentViewmodelMask"
+	HudMatchStatus
 	{
-		//alpha doesn't work for this, you need to change the texture's alpha
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TransparentViewmodelMask"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/REFRACTnormal_transparent"
-		"scaleImage"	"1"
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
+
+	HudTeamStatus
+	{
+		"fieldName"				"HudTeamStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+	
 }

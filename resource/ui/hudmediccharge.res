@@ -83,7 +83,32 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"	"White"
-	}		
+	}
+	"Chargefull"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Chargefull"
+		"xpos"			"30"
+		"xpos_minmode"			"10"
+		"ypos"			"40"
+		"ypos_minmode"			"23"
+		"zpos"			"3"
+		"wide"			"86"
+		"tall"			"8"	
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/bg_blue"
+		"scaleImage"		"1"
+		"teambg_1"		"../vgui/replay/thumbnails/bg_blue"
+		"teambg_2"		"../vgui/replay/thumbnails/bg_red"
+		"teambg_3"		"../vgui/replay/thumbnails/bg_blue"
+		"scaleImage"		"1"			
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"	
+		"draw_corner_height" 	"0"	
+		"Alpha"					"0"
+	}	
 
 	"ChargeMeter1"
 	{	

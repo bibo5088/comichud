@@ -47,17 +47,9 @@ event Hitmarker
 {
 
 	// Team colored hitmarker
-	Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0	// tcHitmarker start
-	Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.95 // tcHitmarker end
-	
-	// # Animate Crosshair1 Alpha "255" 	Linear 0.0 0.0		// CrosshairHitmarker1 start
-	// # Animate Crosshair1 Alpha "255" 	Linear 0.0 0.950 	// CrosshairHitmarker1 end
-	
-	// # Animate Crosshair2 Alpha "255" 	Linear 0.0 0.0		// CrosshairHitmarker2 start
-	// # Animate Crosshair2 Alpha "255" 	Linear 0.0 0.950 	// CrosshairHitmarker2 end
-	
-	// # Animate Crosshair3 Alpha "255" 	Linear 0.0 0.0		// CrosshairHitmarker3 start
-	// # Animate Crosshair3 Alpha "255" 	Linear 0.0 0.950 	// CrosshairHitmarker3 end
+	Animate	xHairSpread	Alpha	"100"		Deaccel 0.0 0.3
+	Animate	xHairSpread	Alpha	"255"		Deaccel 0.3 0.6
+
 	
 }
 
@@ -459,20 +451,24 @@ event HudMedicCharged
 	//Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
 	//Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
 	
-	Animate	ChargeLabel 		FgColor		"Red"			Linear 0.0 0.2
-	Animate	ChargeLabel 		FgColor		"Orange"		Linear 0.2 0.2
-	Animate	ChargeLabel 		FgColor		"255 255 0 255"		Linear 0.4 0.2
-	Animate	ChargeLabel 		FgColor		"0 255 0 255"		Linear 0.6 0.2
-	Animate	ChargeLabel 		FgColor		"0 0 255 0"		Linear 0.8 0.2
-	Animate	ChargeLabel 		FgColor		"255 0 255 255"		Linear 1.0 0.2
+	//Rainbow
+	
+	// Animate	ChargeLabel 		FgColor		"Red"			Linear 0.0 0.2
+	// Animate	ChargeLabel 		FgColor		"Orange"		Linear 0.2 0.2
+	// Animate	ChargeLabel 		FgColor		"255 255 0 255"		Linear 0.4 0.2
+	// Animate	ChargeLabel 		FgColor		"0 255 0 255"		Linear 0.6 0.2
+	// Animate	ChargeLabel 		FgColor		"0 0 255 0"		Linear 0.8 0.2
+	// Animate	ChargeLabel 		FgColor		"255 0 255 255"		Linear 1.0 0.2
 
-	Animate	ChargeMeter 		FgColor		"Red"			Linear 0.0 0.2
-	Animate	ChargeMeter 		FgColor		"Orange"		Linear 0.2 0.2
-	Animate	ChargeMeter 		FgColor		"255 255 0 255"		Linear 0.4 0.2
-	Animate	ChargeMeter 		FgColor		"0 255 0 255"		Linear 0.6 0.2
-	Animate	ChargeMeter 		FgColor		"0 0 255 0"		Linear 0.8 0.2
-	Animate	ChargeMeter 		FgColor		"255 0 255 255"		Linear 1.0 0.2
+	// Animate	ChargeMeter 		FgColor		"Red"			Linear 0.0 0.2
+	// Animate	ChargeMeter 		FgColor		"Orange"		Linear 0.2 0.2
+	// Animate	ChargeMeter 		FgColor		"255 255 0 255"		Linear 0.4 0.2
+	// Animate	ChargeMeter 		FgColor		"0 255 0 255"		Linear 0.6 0.2
+	// Animate	ChargeMeter 		FgColor		"0 0 255 0"		Linear 0.8 0.2
+	// Animate	ChargeMeter 		FgColor		"255 0 255 255"		Linear 1.0 0.2
 
+	Animate Chargefull			Alpha		"255"				Linear 0.0 0.0
+	Animate	ChargeMeter 		Alpha		"0"		Linear 0.0 0.0
 	RunEvent HudMedicChargedLoop	2.3
 }
 
@@ -489,6 +485,8 @@ event HudMedicChargedStop
 	
 	Animate	ChargeLabel 	FgColor		"White"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.0001
+	Animate	ChargeMeter 		Alpha		"255"		Linear 0.0 0.0
+	Animate Chargefull			Alpha		"0"				Linear 0.0 0.0
 }
 
 //====================================

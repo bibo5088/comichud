@@ -3763,6 +3763,11 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+		Rounded
+        {
+                        "inset" "0 0 0 0"
+                        "backgroundtype" "2"
+        }
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -3877,20 +3882,23 @@ Scheme
 
 		ButtonBorder
 		{
-			"inset" "0 0 0 0"
+			"color" "Blank"
+			"offset" "0 0"
 			"backgroundtype" "2"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"inset" "0 0 0 0"
+			"color" "Blank"
+			"offset" "0 0"
 			"backgroundtype" "2"
 		}
 
 		ButtonDepressedBorder
 		{
-			"inset" "0 0 0 0"
+			"color" "Blank"
+			"offset" "0 0"
 			"backgroundtype" "2"
 		}
 
